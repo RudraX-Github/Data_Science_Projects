@@ -1,0 +1,306 @@
+01. January.csv
+Columns Description
+FlightDate:
+Description: The date on which the flight took place.
+Example: 01-01-2023
+
+Day_Of_Week:
+Description: The day of the week the flight took place.
+Example: Monday
+
+Airline:
+Description: The airline operating the flight.
+Example: Alaska Airlines Inc.
+
+Tail_Number:
+Description: The unique identifier or registration number of the aircraft.
+Example: N906XJ
+
+Dep_IATA_CODE:
+Description: The IATA airport code for the departure airport.
+Example: LAX (Los Angeles International Airport)
+
+Dep_CityName:
+Description: The city where the departure airport is located.
+Example: Los Angeles
+
+Dep_State_Abbrivation:
+Description: The state abbreviation where the departure airport is located.
+Example: CA (California)
+
+DepTime_label:
+Description: The label or time of departure.
+Example: 14:30 (2:30 PM)
+
+Dep_Delay:
+Description: The delay time in minutes for the departure.
+Example: 15 (15 minutes delay)
+
+Dep_Delay_Tag:
+Description: A categorical tag indicating if the departure was on-time, delayed, or early.
+Example: Delayed
+
+Dep_Delay_Type:
+Description: The type or cause of the departure delay.
+Example: Weather
+
+Arr_IATA_CODE:
+Description: The IATA airport code for the arrival airport.
+Example: JFK (John F. Kennedy International Airport)
+
+Arr_CityName:
+Description: The city where the arrival airport is located.
+Example: New York
+
+Arr_State:
+Description: The state where the arrival airport is located.
+Example: NY (New York)
+
+Arr_Delay:
+Description: The delay time in minutes for the arrival.
+Example: 20 (20 minutes delay)
+
+Arr_Delay_Type:
+Description: The type or cause of the arrival delay.
+Example: Carrier
+
+Flight_Duration:
+Description: The duration of the flight in minutes.
+Example: 300 (5 hours)
+
+Distance_type:
+Description: A categorical field indicating the flight distance type (e.g., short-haul, medium-haul, long-haul).
+Example: Long-haul
+
+Delay_Carrier:
+Description: The delay time attributed to carrier-related issues in minutes.
+Example: 10 (10 minutes)
+
+Delay_Weather:
+Description: The delay time attributed to weather-related issues in minutes.
+Example: 5 (5 minutes)
+
+Delay_NAS:
+Description: The delay time attributed to National Airspace System-related issues in minutes.
+Example: 3 (3 minutes)
+
+Delay_Security:
+Description: The delay time attributed to security-related issues in minutes.
+Example: 2 (2 minutes)
+
+Delay_LastAircraft:
+Description: The delay time attributed to issues with the last aircraft in minutes.
+Example: 8 (8 minutes)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Flights_Dataset.csv
+Columns Description
+
+FlightDate:
+Description: The date on which the flight took place.
+Example: 01-01-2023
+
+Tail_Number:
+Description: The unique identifier or registration number of the aircraft.
+Example: N906XJ
+
+Manufacturer:
+Description: The company that manufactured the aircraft.
+Example: CANADAIR REGIONAL JET
+
+Model:
+Description: The specific model of the aircraft.
+Example: CRJ
+
+Aircraft_Age:
+Description: The age of the aircraft in years.
+Example: 17
+
+Avg. Passenger Capacity:
+Description: The average number of passengers that the aircraft can carry.
+Example: 75
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cancelled_Diverted_2023.csv
+Columns Description
+
+FlightDate:
+Description: The date on which the flight occurred.
+Example: 01-01-2023
+
+Day_Of_Week:
+Description: The day of the week the flight took place.
+Example: Monday
+
+Airline:
+Description: The airline operating the flight.
+Example: Alaska Airlines Inc.
+Tail_Number:
+Description: The unique identifier or registration number of the aircraft.
+Example: N906XJ
+
+Cancelled:
+Description: Indicates whether the flight was cancelled.
+Example: Yes/No
+Diverted:
+Description: Indicates whether the flight was diverted to a different airport.
+Example: Yes/No
+
+Dep_IATA_CODE:
+Description: The IATA airport code for the departure airport.
+Example: LAX (Los Angeles International Airport)
+
+Dep_CityName:
+Description: The city where the departure airport is located.
+Example: Los Angeles
+
+Dep_State:
+Description: The state where the departure airport is located.
+Example: CA (California)
+
+DepTime_label:
+Description: The scheduled departure time of the flight.
+Example: 14:30 (2:30 PM)
+
+Dep_Delay:
+Description: The delay time in minutes for the departure.
+Example: 15 (15 minutes delay)
+
+Dep_Delay_Tag:
+Description: A categorical tag indicating if the departure was on-time, delayed, or early.
+Example: Delayed
+
+Dep_Delay_Type:
+Description: The type or cause of the departure delay.
+Example: Weather
+
+Arr_IATA_CODE:
+Description: The IATA airport code for the arrival airport.
+Example: JFK (John F. Kennedy International Airport)
+
+Arr_CityName:
+Description: The city where the arrival airport is located.
+Example: New York
+
+Arr_State:
+Description: The state where the arrival airport is located.
+Example: NY (New York)
+
+Arr_Delay:
+Description: The delay time in minutes for the arrival.
+Example: 20 (20 minutes delay)
+
+Arr_Delay_Type:
+Description: The type or cause of the arrival delay.
+Example: Carrier
+
+Flight_Duration:
+Description: The duration of the flight in minutes.
+Example: 300 (5 hours)
+
+Distance_type:
+Description: A categorical field indicating the flight distance type (e.g., short-haul, medium-haul, long-haul).
+Example: Long-haul
+
+Delay_Carrier:
+Description: The delay time attributed to carrier-related issues in minutes.
+Example: 10 (10 minutes)
+
+Delay_Weather:
+Description: The delay time attributed to weather-related issues in minutes.
+Example: 5 (5 minutes)
+
+Delay_NAS:
+Description: The delay time attributed to National Airspace System-related issues in minutes.
+Example: 3 (3 minutes)
+
+Delay_Security:
+Description: The delay time attributed to security-related issues in minutes.
+Example: 2 (2 minutes)
+
+Delay_LastAircraft:
+Description: The delay time attributed to issues with the previous aircraft in minutes.
+Example: 8 (8 minutes)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+weather_meteo_by_airport.csv
+Columns Description
+
+FlightDate:
+Description: The date on which the flight occurred.
+Example: 01-01-2023
+
+tavg:
+Description: The average temperature on the flight date.
+Example: 15°C (59°F)
+
+tmin:
+Description: The minimum temperature on the flight date.
+Example: 10°C (50°F)
+
+tmax:
+Description: The maximum temperature on the flight date.
+Example: 20°C (68°F)
+
+prcp:
+Description: The precipitation level on the flight date, measured in millimeters or inches.
+Example: 5 mm
+
+snow:
+Description: The snowfall amount on the flight date, measured in millimeters or inches.
+Example: 0 mm
+
+wdir:
+Description: The wind direction on the flight date, typically measured in degrees from north.
+Example: 180° (South)
+
+wspd:
+Description: The wind speed on the flight date, measured in kilometers per hour or miles per hour.
+Example: 15 km/h
+
+pres:
+Description: The atmospheric pressure on the flight date, measured in hPa (hectopascals) or inHg (inches of mercury).
+Example: 1013 hPa
+
+Arr_Airport ID:
+Description: The unique identifier for the arrival airport.
+Example: JFK (John F. Kennedy International Airport)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+airports_geolocation.csv
+Columns Description
+
+IATA_CODE:
+Description: The International Air Transport Association (IATA) code for the airport.
+Example: LAX (Los Angeles International Airport)
+
+AIRPORT:
+Description: The name of the airport.
+Example: Los Angeles International Airport
+
+CITY:
+Description: The city where the airport is located.
+Example: Los Angeles
+
+STATE:
+Description: The state where the airport is located.
+Example: CA (California)
+
+COUNTRY:
+Description: The country where the airport is located.
+Example: USA
+
+LATITUDE:
+Description: The geographic latitude coordinate of the airport.
+Example: 33.9416° N
+
+LONGITUDE:
+Description: The geographic longitude coordinate of the airport.
+Example: 118.4085° W
